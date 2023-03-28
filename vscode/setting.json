@@ -1,0 +1,101 @@
+{
+  "files.eol": "\n",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "gitlens.defaultDateLocale": "zh-CN",
+  "gitlens.defaultTimeFormat": "HH:mm:ss",
+  "gitlens.defaultDateShortFormat": "YYYY/MM/DD",
+  "gitlens.views.branches.branches.layout": "list",
+  "editor.fontFamily": "'Sarasa Mono SC', Consolas",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": false,
+  "editor.minimap.autohide": true,
+  "editor.indentSize": 2,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "gitlens.views.tags.branches.layout": "list",
+  "emmet.includeLanguages": {
+    "axml": "xml"
+  },
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  // "[typescript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[typescriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[javascriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[json]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[jsonc]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[css]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[vue]": {
+  //   "editor.defaultFormatter": "Vue.volar"
+  // },
+  // "[html]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[less]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[markdown]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "[less]": {
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "[axml]": {
+    "editor.defaultFormatter": "alipay.minicode"
+  },
+  "editor.accessibilitySupport": "off",
+  "git-graph.date.format": "ISO Date & Time",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
+  },
+  "terminal.external.windowsExec": "C:\\Windows\\System32\\wsl.exe",
+  "gitlens.views.contributors.avatars": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.unicodeHighlight.allowedLocales": {
+    "cs": true
+  },
+  "window.menuBarVisibility": "classic",
+  "cSpell.userWords": [
+    "ahooks"
+  ],
+  // "terminal.integrated.profiles.windows": {
+  //   "WSL": {
+  //     "path": ["C:\\Windows\\System32\\wsl.exe"],
+  //     "args": [],
+  //   }
+  // }
+}
