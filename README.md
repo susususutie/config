@@ -1,6 +1,8 @@
 # .config
 some configs including VSCode, Vim, OhMyZsh...
 
+仓库名改为为下划线开头，是因为Gitee的仓库名称不能以.开始
+
 ## VSCode
 
 usage: 用`vscode/setting.json`替换本地的配置文件
