@@ -1,7 +1,7 @@
 # .config
 some configs including VSCode, Vim, OhMyZsh...
 
-仓库名改为为下划线开头，是因为Gitee的仓库名称不能以.开始
+仓库改名，Gitee的仓库名称必须以字母或数字开头
 
 ## VSCode
 
