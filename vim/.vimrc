@@ -20,7 +20,8 @@ set tabstop=4
 " PLUGINS ---------------------------------------------------------------- {{{
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
-map <silent> <C-e> :NERDTreeToggle<CR>
+" Ctrl+b 时展开/折叠目录栏, 和VSCode快捷键相同
+map <silent> <C-b> :NERDTreeToggle<CR>
 
 call plug#end()
 " }}}
