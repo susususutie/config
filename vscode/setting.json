@@ -1,5 +1,6 @@
 {
   "files.eol": "\n",
+
   "gitlens.codeLens.enabled": false,
   "gitlens.hovers.enabled": false,
   "gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm:ss",
@@ -7,95 +8,122 @@
   "gitlens.defaultTimeFormat": "HH:mm:ss",
   "gitlens.defaultDateShortFormat": "YYYY/MM/DD",
   "gitlens.views.branches.branches.layout": "list",
+  "gitlens.views.tags.branches.layout": "list",
+  "gitlens.graph.minimap.additionalTypes": ["stashes", "localBranches", "remoteBranches", "tags"],
+  "gitlens.graph.minimap.enabled": false,
+  "gitlens.autolinks": [
+    {
+      "prefix": "#",
+      "url": "http://bdms.mchz.com.cn:6998/issues/<num>"
+    }
+  ],
+  "gitlens.graph.scrollMarkers.additionalTypes": ["localBranches", "stashes", "remoteBranches", "tags"],
+  "gitlens.graph.defaultItemLimit": 88,
+  "gitlens.graph.pageItemLimit": 88,
+  "gitlens.graph.dateStyle": "absolute",
+  "gitlens.graph.dateFormat": null,
+
+  "prettier.tabWidth": 2,
+  "editor.rulers": [120],
+  "prettier.printWidth": 120,
+  "editor.guides.indentation": true,
+  "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
   "editor.fontFamily": "'Sarasa Mono SC', Consolas",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.minimap.enabled": false,
   "editor.minimap.autohide": true,
-  "editor.indentSize": 2,
-  "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.unicodeHighlight.nonBasicASCII": false,
-  "gitlens.views.tags.branches.layout": "list",
+  "editor.unicodeHighlight.allowedLocales": {
+    "cs": true
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   "emmet.includeLanguages": {
     "axml": "xml"
   },
   "workbench.editorAssociations": {
     "git-rebase-todo": "default"
   },
-  // "[typescript]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[typescriptreact]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[javascriptreact]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[javascript]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[json]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[jsonc]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[css]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[vue]": {
-  //   "editor.defaultFormatter": "Vue.volar"
-  // },
-  // "[html]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[less]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[markdown]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  "[less]": {
-    "editor.suggest.insertMode": "replace",
-    "gitlens.codeLens.scopes": ["document"]
-  },
-  "[go]": {
-    "editor.defaultFormatter": "golang.go",
-    "editor.insertSpaces": false,
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    },
-    "editor.suggest.snippetsPreventQuickSuggestions": false
-  },
-  "[axml]": {
-    "editor.defaultFormatter": "alipay.minicode"
-  },
-  "editor.accessibilitySupport": "off",
   "git-graph.date.format": "ISO Date & Time",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.formatOnType": true
-  },
   "terminal.external.windowsExec": "C:\\Windows\\System32\\wsl.exe",
-  "gitlens.views.contributors.avatars": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.unicodeHighlight.allowedLocales": {
-    "cs": true
-  },
-  "window.menuBarVisibility": "classic",
+
+  "cSpell.numSuggestions": 3,
+  "cSpell.showStatus": true,
+  "cSpell.useGitignore": true,
   "cSpell.userWords": [
-    "ahooks"
+    "ahooks",
+    "antd",
+    "cssinjs",
+    "hoverable",
+    "iconfont",
+    "juejin",
+    "matchs",
+    "mockjs",
+    "pinia",
+    "sutie",
+    "vite",
+    "vitejs",
+    "vitepress",
+    "vitest"
   ],
-  // "terminal.integrated.profiles.windows": {
-  //   "WSL": {
-  //     "path": ["C:\\Windows\\System32\\wsl.exe"],
-  //     "args": [],
-  //   }
-  // }
+  "cSpell.ignorePaths": [
+    "node_modules",
+    "package.json",
+    "package-lock.json",
+    "yarn.lock",
+    "pnpm",
+    "pnpm-lock.yaml",
+    ".vscode/**",
+    "vscode-extension",
+    ".vscode-insiders",
+    ".git",
+    ".git/objects",
+    "settings.json"
+  ],
+
+  "window.commandCenter": true,
+  "codeium.enableSearch": true,
+  "diffEditor.ignoreTrimWhitespace": false
 }
+
