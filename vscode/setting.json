@@ -95,6 +95,7 @@
     "ahooks",
     "antd",
     "cssinjs",
+    "echarts",
     "hoverable",
     "iconfont",
     "juejin",
@@ -119,11 +120,9 @@
     ".vscode-insiders",
     ".git",
     ".git/objects",
-    "settings.json"
+    "settings.json",
+    "tsconfig.json"
   ],
 
-  "window.commandCenter": true,
-  "codeium.enableSearch": true,
-  "diffEditor.ignoreTrimWhitespace": false
+  "window.commandCenter": true
 }
-
