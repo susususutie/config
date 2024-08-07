@@ -32,3 +32,10 @@ usage(linux/wsl):
 
 usage:
 将`.vimrc`放在`~`下
+
+
+## WSL
+
+将`.wslconfig`放在`windows`个人目录下(`cd ~`), 
+
+ref: [WSL](https://learn.microsoft.com/zh-cn/windows/wsl/wsl-config#wslconfig)
