@@ -14,7 +14,7 @@
   "gitlens.autolinks": [
     {
       "prefix": "#",
-      "url": "http://bdms.mchz.com.cn:6998/issues/<num>"
+      "url": "https://github.com/susususutie/config/issues/<num>"
     }
   ],
   "gitlens.graph.scrollMarkers.additionalTypes": ["localBranches", "stashes", "remoteBranches", "tags"],
@@ -23,9 +23,18 @@
   "gitlens.graph.dateStyle": "absolute",
   "gitlens.graph.dateFormat": null,
 
-  "prettier.tabWidth": 2,
-  "editor.rulers": [120],
+  "_comment_prettier": "当项目中没有 prettier 的配置文件时，插件默认使用此处配置",
   "prettier.printWidth": 120,
+  "prettier.tabWidth": 2,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.vueIndentScriptAndStyle": true,
+  "prettier.trailingComma": "es5",
+  "prettier.arrowParens": "avoid",
+
+  "__comment_editor.rulers": "只控制竖线显示位置，可设置多条，最好与 prettier.printWidth 的配置保持一致",
+  "editor.rulers": [120],
   "editor.guides.indentation": true,
   "editor.tabSize": 2,
   "editor.indentSize": "tabSize",

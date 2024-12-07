@@ -39,3 +39,7 @@ usage:
 将`.wslconfig`放在`windows`个人目录下(`cd ~`), 
 
 ref: [WSL](https://learn.microsoft.com/zh-cn/windows/wsl/wsl-config#wslconfig)
+
+## .prettier
+
+自定义部分 prettier 配置， 其余均使用[默认配置](https://prettier.io/docs/en/options)
