@@ -34,9 +34,25 @@ usage:
 
 ## WSL
 
-将`.wslconfig`放在`windows`个人目录下(`cd ~`),
+[个人笔记](https://susususutie.github.io/note/wsl/)
 
-ref: [WSL](https://learn.microsoft.com/zh-cn/windows/wsl/wsl-config#wslconfig)
+### .wslconfig
+
+wsl 上所有发行版的全局配置，保存在 windows 主机的个人目录下，更改后需要关闭、重启 wsl 才生效。
+详细配置查看官方[文档](https://learn.microsoft.com/zh-cn/windows/wsl/wsl-config#wslconfig)。
+
+```bash
+cat ~/.wslconfig
+wsl --shutdown
+```
+
+### wsl.conf
+
+wsl 上每个 Linux 发行版的本地设置，保存在发行版的 /etc 文件夹中，详细配置查看官方[文档](https://learn.microsoft.com/zh-cn/windows/wsl/wsl-config#wslconf)。
+
+```bash
+cat /etc/wsl.conf
+```
 
 ## .prettier
 
