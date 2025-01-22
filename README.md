@@ -27,6 +27,11 @@ usage(linux/wsl):
 
 将`git/_gitattributes`放在项目目录, 重命名为`.gitattributes`, 用于配置当前项目的 git 配置
 
+```bash
+# cd 到项目目录，执行
+curl -o .gitattributes https://raw.githubusercontent.com/susususutie/config/refs/heads/main/git/_gitattributes
+```
+
 ## Vim
 
 usage:
