@@ -3,7 +3,7 @@
   "semi": false,
   "singleQuote": true,
   "jsxSingleQuote": true,
-  "vueIndentScriptAndStyle": true,
+  "vueIndentScriptAndStyle": false,
   "trailingComma": "es5",
   "arrowParens": "avoid"
 }
