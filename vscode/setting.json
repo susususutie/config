@@ -29,7 +29,7 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": true,
-  "prettier.vueIndentScriptAndStyle": true,
+  "prettier.vueIndentScriptAndStyle": false,
   "prettier.trailingComma": "es5",
   "prettier.arrowParens": "avoid",
 
