@@ -67,15 +67,19 @@ cat /etc/wsl.conf
 curl -o ".prettierrc" https://raw.githubusercontent.com/susususutie/config/refs/heads/main/_prettierrc
 ```
 
-## .config/opencode/AGENTS.md
+## opencode/AGENTS.md
 
-执行下列命令，将文件下载为 opencode 的全局 AGENTS.md
+在任意路径执行，将文件下载至`~/.config/opencode/AGENTS.md`，作为opencode全局配置
 
 ```bash
 curl -o ~/.config/opencode/AGENTS.md https://raw.githubusercontent.com/susususutie/config/refs/heads/main/opencode/AGENTS.md
 ```
 
-或者更全面的版本：
+<details>
+
+<summary>更全面的版本</summary>
+
+#### 在任意路径执行：
 
 ```bash
 mkdir -p ~/.config/opencode && [ -f ~/.config/opencode/AGENTS.md ] && mv ~/.config/opencode/AGENTS.md ~/.config/opencode/AGENTS.md.bak.$(date +%Y%m%d%H%M) ; curl -o ~/.config/opencode/AGENTS.md https://raw.githubusercontent.com/susususutie/config/refs/heads/main/opencode/AGENTS.md
@@ -86,3 +90,5 @@ mkdir -p ~/.config/opencode && [ -f ~/.config/opencode/AGENTS.md ] && mv ~/.conf
 - 创建目录（如果不存在）
 - 如果文件已存在，备份为 AGENTS.md.bak.202604022311 格式（使用当前时间）
 - 下载新文件为`~/.config/opencode/AGENTS.md`
+
+</details>
