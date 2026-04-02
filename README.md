@@ -2,8 +2,6 @@
 
 some configs including VSCode, Vim, OhMyZsh...
 
-仓库改名，Gitee 的仓库名称必须以字母或数字开头
-
 ## VSCode
 
 usage: 用`vscode/setting.json`替换本地的配置文件
@@ -69,3 +67,22 @@ cat /etc/wsl.conf
 curl -o ".prettierrc" https://raw.githubusercontent.com/susususutie/config/refs/heads/main/_prettierrc
 ```
 
+## .config/opencode/AGENTS.md
+
+执行下列命令，将文件下载为 opencode 的全局 AGENTS.md
+
+```bash
+curl -o ~/.config/opencode/AGENTS.md https://raw.githubusercontent.com/susususutie/config/refs/heads/main/opencode/AGENTS.md
+```
+
+或者更全面的版本：
+
+```bash
+mkdir -p ~/.config/opencode && [ -f ~/.config/opencode/AGENTS.md ] && mv ~/.config/opencode/AGENTS.md ~/.config/opencode/AGENTS.md.bak.$(date +%Y%m%d%H%M) ; curl -o ~/.config/opencode/AGENTS.md https://raw.githubusercontent.com/susususutie/config/refs/heads/main/opencode/AGENTS.md
+```
+
+这条命令会：
+
+- 创建目录（如果不存在）
+- 如果文件已存在，备份为 AGENTS.md.bak.202604022311 格式（使用当前时间）
+- 下载新文件为`~/.config/opencode/AGENTS.md`
