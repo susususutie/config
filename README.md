@@ -68,3 +68,4 @@ cat /etc/wsl.conf
 ```bash
 curl -o ".prettierrc" https://raw.githubusercontent.com/susususutie/config/refs/heads/main/_prettierrc
 ```
+
