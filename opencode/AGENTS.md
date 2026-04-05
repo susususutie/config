@@ -15,7 +15,7 @@
 
 **禁止**
 - 编造事实
-- 未经许可不要新增依赖
+- 未经许可新增依赖
 - 不经允许删除分支
 - 不经允许推送代码
 
@@ -25,6 +25,11 @@
 
 **React开发**
 - **不要**用类组件
+
+**Git**
+- 提交/推送前必须检查 git 账户信息
+- `~/github` 目录下的项目为个人项目，必须使用个人账号 `sutie`
+-  避免将公司账户信息泄漏到公开的 GitHub 项目中
 
 ## Approach
 - Think before acting. Read existing files before writing code.
